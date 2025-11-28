@@ -10,16 +10,18 @@ Aplicativo de construtora. Permite que os usuários acessem seus empreendimentos
 ()
 
 ## Como rodar
-1. Clone este repositório em seu computador.
-2. Limpe o gradle com os seguintes comandos:
-   cd android
-   ./gradlew clean
-   cd ..
-3. Instale as dependências do npm:
-   npm install --legacy-peer-deps
-4. Rode o projeto com os seguintes comandos:
-   npm start -- --reset-cache
-   npx react-native run-android
+
+### Após clonar o repositório em seu computador, limpe o gradle:
+- cd android
+- ./gradlew clean
+- cd ..
+
+### Instale as dependências do npm:
+- npm install --legacy-peer-deps
+
+### Rode o projeto com os seguintes comandos:
+- npm start -- --reset-cache
+- npx react-native run-android
 
 ## Arquitetura
 ()
