@@ -1,0 +1,27 @@
+import tw from 'twrnc'
+
+export const styles = {
+  container: tw`flex-1 bg-[#efeedb]`,
+  header: tw`bg-[#efeedb] pt-4 pb-2 px-6 items-left`,
+  logo: tw`w-48 h-16`,
+  padding: tw`px-4 pb-2`,
+  introContainer: tw`px-6 py-4`,
+  introTitle: tw`text-2xl font-bold text-center`,
+  orange: tw`text-[#F5A500]`,
+  introText: tw`text-sm text-gray-700 text-center mt-2 leading-relaxed`,
+  listContent: tw`px-4 pt-2 pb-6`,
+  aboutContainer: tw`px-6 pt-6 pb-12`,
+  aboutTitle: tw`text-xl font-bold`,
+  orangeText: tw`text-sm text-[#F5A500] mt-2 mb-2`,
+  aboutText: tw`text-sm text-gray-700 leading-relaxed`,
+  bold: tw`font-bold`,
+  headerTitle: tw`text-[#55585b] text-xl font-bold`,
+  emptyText: tw`text-gray-500 text-center mt-6 text-base`,
+  card: tw`bg-white rounded-xl shadow-md overflow-hidden`,
+  image: tw`w-full h-52 rounded-t-xl overflow-hidden`,
+  whatsapp: tw`absolute bottom-24 right-5 bg-[#25D366] rounded-full p-4 shadow-lg`,
+  info: tw`p-4`,
+  name: tw`text-lg font-bold text-[#F5A500]`,
+  location: tw`text-sm text-gray-600`,
+  badgeWrapper: tw`text-sm text-gray-600`,
+};
