@@ -1,0 +1,46 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Android
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+android/*.iml
+
+# Gradle caches
+.gradle/
+**/build/
+
+# Xcode / iOS (caso use)
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+ios/*.xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.moved-aside
+*.hmap
+*.ipa
+*.app
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
+*.swp
+*.swo
