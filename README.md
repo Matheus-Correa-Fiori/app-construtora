@@ -69,21 +69,31 @@ src
 ## Como rodar o projeto
 
 **Clone o repositório:**
+```
 git clone https://github.com/Matheus-Correa-Fiori/app-construtora
+```
 
 **Instale as dependências:**
+```
 npm install --legacy-peer-deps
+```
 
 **Limpe o build do Android:**
+```
 cd android
 ./gradlew clean
 cd ..
+```
 
 **Inicie o Metro Bundler:**
+```
 npm start -- --reset-cache
+```
 
 **Execute o aplicativo:**
+```
 npx react-native run-android
+```
 
 ## Observações
 Este projeto não consume uma API real.
