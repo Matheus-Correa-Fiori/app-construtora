@@ -31,7 +31,7 @@ src
  ├── screens      → telas principais do aplicativo.
  ├── services     → serviços responsáveis por fornecer dados (mock)
  └── types        → definições de tipos TypeScript utilizados no projeto.
-``
+```
 
 ## Desafios técnicos
 - Estruturação da arquitetura do app para facilitar manutenção.
