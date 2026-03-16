@@ -1,4 +1,4 @@
-# Nome do Projeto
+# App Construtora
 Aplicativo de construtora. Permite que os usuários acessem seus empreendimentos e visualizem o contrato, futuras parcelas, pagamentos das parcelas, e andamento da obra com fotografias e outras informações.
 
 ## Tecnologias
