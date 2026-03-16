@@ -23,6 +23,7 @@ Dados sensíveis e integrações com APIs foram substituídos por mocks para pre
 ## Arquitetura do Projeto
 O projeto segue uma organização baseada em separação de responsabilidades:
 
+```
 src
  ├── assets       → imagens, ícones e recursos estáticos do aplicativo.
  ├── components   → componentes reutilizáveis da interface.
@@ -30,6 +31,7 @@ src
  ├── screens      → telas principais do aplicativo.
  ├── services     → serviços responsáveis por fornecer dados (mock)
  └── types        → definições de tipos TypeScript utilizados no projeto.
+``
 
 ## Desafios técnicos
 - Estruturação da arquitetura do app para facilitar manutenção.
