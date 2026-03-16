@@ -1,9 +1,11 @@
 # App Construtora
 Aplicativo mobile desenvolvido para clientes de uma construtora acompanharem seus empreendimentos e contratos.
+
 O aplicativo permite visualizar informações do contrato, consultar parcelas futuras, acompanhar o progresso da obra através de fotografias e receber comunicados relacionados ao empreendimento.
 
 ## Status do Projeto
 Projeto desenvolvido para fins de portfólio, baseado em um aplicativo real.
+
 Dados sensíveis e integrações com APIs foram substituídos por mocks para preservar confidencialidade.
 
 ## Funcionalidades
@@ -16,9 +18,10 @@ Dados sensíveis e integrações com APIs foram substituídos por mocks para pre
 
 ## Tecnologias
 - **React Native** → desenvolvimento do aplicativo mobile.
-- **TypeScript** → tipagem estática e melhor organização do código.
+- **TypeScript** → tipagem estática e organização do código.
 - **React Navigation** → navegação entre telas.
 - **Tailwind** → estilização dos componentes.
+- **Node.js / NPM** → gerenciamento de dependências.
 
 ## Arquitetura do Projeto
 O projeto segue uma organização baseada em separação de responsabilidades:
@@ -97,4 +100,5 @@ npx react-native run-android
 
 ## Observações
 Este projeto não consome uma API real.
+
 Todos os dados são simulados através de **mocks** localizados na pasta `src/services`.
