@@ -96,5 +96,5 @@ npx react-native run-android
 ```
 
 ## Observações
-Este projeto não consume uma API real.
-Todos os dados são simulados através de **mocks** localizados na pasta `src/services`, utilizando dados fictícios.
+Este projeto não consome uma API real.
+Todos os dados são simulados através de **mocks** localizados na pasta `src/services`.
