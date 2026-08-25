@@ -74,8 +74,12 @@ src
 **Clone o repositório:**
 ```
 git clone https://github.com/Matheus-Correa-Fiori/app-construtora
+cd app-construtora
 ```
-
+**Use a versão correta do Node.js:**
+```
+nvm use
+```
 **Instale as dependências:**
 ```
 npm install --legacy-peer-deps
